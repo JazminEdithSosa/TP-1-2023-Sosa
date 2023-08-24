@@ -1,1 +1,25 @@
+Module Program
+    Sub Main()
 
+        Dim CantidadDeUnidades As String
+        Dim CostoDeMaterial As Decimal
+        Dim CostoFijo As String
+        Dim CostoFinal As Double
+
+        CostoDeMaterial = 3.5
+        CostoFijo = 10700
+
+        Console.WriteLine("Calculadora de Costo de Producción")
+        Console.Write("Ingrese la descripcion del artículo:")
+        Dim Descripcion As String = Console.ReadLine()
+        Console.WriteLine("Describir cantidad de unidades: ")
+        CantidadDeUnidades = Console.ReadLine
+        CostoFinal = CantidadDeUnidades * CostoDeMaterial + CostoFijo
+        Console.WriteLine("Resultados")
+        Console.WriteLine(" Descripción: " & Descripcion)
+        Console.WriteLine(" Nro de Unidades: " & CantidadDeUnidades)
+        Console.WriteLine(" Costo de Materiales: " & CostoDeMaterial)
+        Console.WriteLine(" Costo Fijo: " & CostoFijo)
+        Console.WriteLine(" Costo Final: " & CostoFinal)
+    End Sub
+End Module
