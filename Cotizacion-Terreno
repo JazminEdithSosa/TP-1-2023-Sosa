@@ -1,0 +1,23 @@
+Module Program
+    Sub Main()
+
+        Dim Ancho As Decimal
+        Dim Longitud As Decimal
+        Dim CostoMetroCuadrado As Decimal
+        Dim CostoFinal As Double
+
+        Console.WriteLine("Calculadora de Cotizacion de Terrenos")
+        Console.Write("Ingrese el Ancho en metros:")
+        Ancho = Console.ReadLine()
+        Console.WriteLine("Ingrese la Longitud en metros: ")
+        Longitud = Console.ReadLine
+        Console.WriteLine("Ingrese el Costo por M/2 del Terreno: ")
+        CostoMetroCuadrado = Console.ReadLine
+        CostoFinal = Ancho * Longitud * CostoMetroCuadrado
+        Console.WriteLine("Resultados")
+        Console.WriteLine("Hancho: " & Ancho)
+        Console.WriteLine("Loongitud: " & Longitud)
+        Console.WriteLine("Costo de m/2: " & CostoMetroCuadrado)
+        Console.WriteLine("Costo Final: " & CostoFinal)
+    End Sub
+End Module
