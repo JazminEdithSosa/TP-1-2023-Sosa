@@ -1,0 +1,19 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Dim Horas As Integer
+        Dim Minutos As Integer
+        Dim Segundos As Integer
+        Dim Dias As Double
+
+        Console.WriteLine("Horas:")
+        Horas = Console.ReadLine()
+        Minutos = Horas * 60
+        Console.WriteLine("Minutos:" & Minutos)
+        Segundos = Horas * 3600
+        Console.WriteLine("Segundos:" & Segundos)
+        Dias = Horas / 24
+        Console.WriteLine("Días:" & Dias)
+    End Sub
+End Module
