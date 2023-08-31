@@ -1,0 +1,13 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Dim Celsius As Integer
+        Dim Fahrenheit As Double
+
+        Console.Write("Celsius: ")
+        Celsius = Console.ReadLine()
+        Fahrenheit = (Celsius * 9 / 5) + 32
+        Console.WriteLine("Fahrenheit: " & Fahrenheit)
+    End Sub
+End Module
