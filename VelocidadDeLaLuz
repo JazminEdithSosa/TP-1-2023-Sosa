@@ -1,0 +1,12 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Dim KmxSeg As Double
+        KmxSeg = 300000
+        Console.WriteLine("Ingresa el tiempo en segundos: ")
+        Dim Tiempo As Double = (Console.ReadLine)
+        Dim Distancia As Double = Tiempo * KmxSeg
+        Console.WriteLine($"tardaria {Tiempo} recorreria {Distancia}")
+    End Sub
+End Module
