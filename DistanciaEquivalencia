@@ -1,0 +1,24 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+
+        Dim Yarda As Integer
+        Dim Pie As Double
+        Dim Pulgada As Double
+        Dim Metro As Double
+        Dim Centimetro As Double
+
+        Console.Write("Yarda: ")
+        Yarda = Console.ReadLine
+        Pie = Yarda * 3
+        Pulgada = Pie * 12
+        Centimetro = Pulgada * 2.54
+        Metro = Centimetro / 100
+        Console.WriteLine("Equivalencia en Pies: " & Pie)
+        Console.WriteLine("Equivalencia en Pulgadas: " & Pulgada)
+        Console.WriteLine("Equivalencia en Metros: " & Metro)
+        Console.WriteLine("Equivalencia en Centimetros: " & Centimetro)
+
+    End Sub
+End Module
