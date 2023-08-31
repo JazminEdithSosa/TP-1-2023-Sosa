@@ -1,0 +1,18 @@
+Module Program
+    Sub Main(args As String())
+        Dim a As Integer
+        Dim b As Integer
+        Dim c As Integer
+        Dim Cuadratica As Double
+
+        a = 1
+        b = 5
+        c = 2
+        Cuadratica = (b ^ 2 - 4 * a * c) / (2 * a)
+
+        Console.WriteLine("A= " & a)
+        Console.WriteLine("B= " & b)
+        Console.WriteLine("C= " & c)
+        Console.WriteLine("Cuadrática= " & Cuadratica)
+    End Sub
+End Module
