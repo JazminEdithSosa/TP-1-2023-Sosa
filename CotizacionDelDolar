@@ -1,0 +1,22 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+
+        Dim Cantidad As Decimal
+        Dim CostoDelDolar As Decimal
+        Dim MontoPagar As Double
+
+        CostoDelDolar = 725
+
+        Console.WriteLine("¿Cuantos dolares desea comrpar?")
+        Cantidad = Console.ReadLine
+        Console.WriteLine("Cantidad a comprar: " & Cantidad)
+        Console.WriteLine("Precio del Dolar: " & CostoDelDolar)
+
+        MontoPagar = Cantidad * CostoDelDolar
+
+        Console.WriteLine("Monto a pagar por la compra: " & MontoPagar)
+
+    End Sub
+End Module
