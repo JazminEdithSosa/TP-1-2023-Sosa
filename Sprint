@@ -1,0 +1,22 @@
+Module Program
+    Sub Main(args As String())
+
+        Dim año As Integer
+        Dim mes As Integer
+        Dim dia As Integer
+        Dim HorasSumar As Integer
+        Dim FechaHoraOriginal As New DateTime(año, mes, dia, 0, 0, 0)
+        Dim NuevosDatos As DateTime = FechaHoraOriginal.AddHours(HorasSumar)
+
+        Console.Write("Ingrese el Año: ")
+        año = Console.ReadLine
+        Console.Write("Ingrese el Mes: ")
+        mes = Console.ReadLine
+        Console.Write("Ingrese el Día: ")
+        dia = Console.ReadLine
+        Console.Write("Ingrese el tiempo a sumar: ")
+        HorasSumar = Console.ReadLine
+        Console.WriteLine("La fecha y hora original es: " & FechaHoraOriginal)
+        Console.WriteLine("Sumando " & HorasSumar & " Horas, la nueva fecha y hora es: " & NuevosDatos)
+
+    End Sub
