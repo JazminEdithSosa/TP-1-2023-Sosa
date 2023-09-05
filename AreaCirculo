@@ -1,0 +1,18 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+
+        Dim Radio As Double
+        Dim Area As Double
+
+        Console.WriteLine("Ingrese los datos del Circulo")
+        Radio = Console.ReadLine
+
+        Console.WriteLine("El radio es: " & Radio)
+
+        Area = Math.PI * Radio ^ 2
+
+        Console.WriteLine("El Area es: " & Area)
+    End Sub
+End Module
