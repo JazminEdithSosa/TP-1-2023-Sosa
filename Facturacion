@@ -1,0 +1,26 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+
+        Dim articulo As String
+        Dim utilidad As Double
+        Dim impuesto As Double
+        Dim costo As Integer
+        Dim precio As Double
+
+        Console.WriteLine("Facturación")
+        Console.Write("Nombre del Artículo:")
+        articulo = Console.ReadLine()
+        Console.Write("Costo del Artículo:")
+        costo = Console.ReadLine()
+
+        utilidad = costo * 1.5
+        impuesto = utilidad * 0.21
+        precio = costo + utilidad + impuesto
+
+        Console.WriteLine("Utilidad del Artículo: " & utilidad)
+        Console.WriteLine("Impuesto del Artículo: " & impuesto)
+        Console.WriteLine("Precio del Artículo: " & precio)
+    End Sub
+End Module
